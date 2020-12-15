@@ -41,6 +41,7 @@ $(function(){
 				})
 			}, 'json')
 		}
+				graph_1();
 		function graph_2(){
 				// // 基于准备好的dom，初始化echarts实例
 				var myChart_2 = echarts.init(document.getElementById('graph_2'),'dark');
@@ -83,6 +84,7 @@ $(function(){
 					})
 				}, 'json')
 		}
+				graph_2();
 		function graph_3(){
 				// // 基于准备好的dom，初始化echarts实例
 				var myChart_3 = echarts.init(document.getElementById('graph_3'),'dark');
@@ -126,8 +128,6 @@ $(function(){
 				}, 'json')
 		}
 		
-				graph_1();
-				graph_2();
 				graph_3();
 
 
